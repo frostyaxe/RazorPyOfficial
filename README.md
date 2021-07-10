@@ -1,5 +1,5 @@
 # RazorPy
-RazorPy deals with the activities related to the DevOps process. User needs to create a yaml file based on that this application perform the required actions.
+RazorPy deals with the activities related to the DevOps process. User needs to create a yaml file based on that this application performs the required actions.
 
 Currently this application supports below services.
 - apitest
