@@ -315,7 +315,7 @@ YAML Example:
 ## Reporting
 Once the execution is completed, this framework generates the html report as shown in the below image.
 
-![Report](https://github.com/frostyaxe/RazorPy/blob/master/others/report.PNG?raw=true)
+![Report](https://github.com/frostyaxe/RazorPyOfficial/blob/master/others/report.PNG?raw=true)
 
 ## Prerequisite
 REQUIRED Python 3.9
