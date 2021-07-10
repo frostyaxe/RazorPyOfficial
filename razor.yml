@@ -1,0 +1,43 @@
+---
+jobs:
+
+    - apitest:
+         name: "Working with the rest API get requests" 
+         base_url: "https://reqres.in"
+         api_path: "api/users"
+         query_param: 
+             page: "{{ page_no }}"
+         headers:
+             - "Content-Type" : "application/json"
+         response_type: "json"
+         vars:
+            page_no: 2
+         capture:
+             type: 'var'
+             name: 'rest_response'
+         validators:
+             expected_status:
+                  - 200
+                  
+             compare:
+                  - json_path: "$.total_pages"
+                    comparator: "equals"
+                    expected: 2
+                        
+                  
+    - cowsay:
+         name: "Displaying Message in Dragon"
+         character: "dragon"
+         message: '{{rest_response}}'
+         
+         
+    - python:
+         type: 'eval'
+         string: '10//2'
+         
+    - template:
+         name: "Example of jinja2 templating."
+         file: "others/base.txt"
+         vars:
+             name: "Abhishek Prajapati"
+         

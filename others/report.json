@@ -1,0 +1,16 @@
+{
+	
+	"test-result":
+	[
+		{
+		"total" : 4,
+		"failed" : 2
+		},
+		{
+		"total" : 4,
+		"failed" : 0
+		}
+	]
+
+
+}

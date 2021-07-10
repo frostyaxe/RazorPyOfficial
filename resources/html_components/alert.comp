@@ -1,0 +1,6 @@
+<div {{alert_attribs}}>
+	{% if close == "true" %}
+ 	 	<button type="button" class="close" data-dismiss="alert">&times;</button>
+ 	{% endif %}
+  		<strong>{{title}}</strong> {{message}}
+</div>

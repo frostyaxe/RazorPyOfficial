@@ -1,0 +1,112 @@
+    - cowsay:
+         name: "Displaying Message in Dragon"
+         character: "tux"
+         message: "{{msg}}"
+         vars:
+            msg: "Hello Pawan!"
+         
+    - url:
+         name: "Working with the rest API get requests" 
+         base_url: "https://jsonplaceholder.typicode.com"
+         api_path: "todos/1" 
+         headers:
+             - "Content-Type" : "application/json"
+         response_type: "text"
+         vars:
+            username: "Abhishek"
+         capture:
+             type: 'var'
+             name: 'rest_response'
+    - url:
+         name: "Working with the rest API post requests" 
+         base_url: "https://gorest.co.in"
+         api_path: "public-api/users" 
+         authentication:
+              scheme : "bearer"
+              token : "<token>"
+         request:
+             method: "POST"
+             payload: "{'name':'Abhishek', 'gender':'Male', 'email':'abhishek@15ce.com', 'status':'Active'}"
+         headers:
+             - "Content-Type" : "application/json"
+         response_type: "text"
+
+    - template:
+         name: "Example of jinja2 templating."
+         string: "{% raw %} Hello Abhishek {{ message }} {% endraw %}. I am coming from local vars : {{zombie}} .Response: {{rest_response}}" 
+         vars:
+             zombie: "Abhishek Prajapati"
+             
+    - html:
+          file: "output.html"
+          components:
+              - table:
+                  headings: 
+                      - name
+                      - age
+                  rows:
+                     - "Abhishek, 27"
+                     - "Vinit, 70"
+                     - "Pawan, 90"
+                     - "korean, 21"
+                  attribs:
+                      component: 
+                           class: "table"
+                      header:
+                           class: "thead-dark"
+          
+              - alert:
+                   title: "Exception Found:"
+                   message: "Error occured @line 27."
+                   enableClose: "false"  
+                   attribs:
+                        class: "alert-success"    
+                        
+    - email:
+          sender: "prajapatiabhishek1996@gmail.com"
+          password: "<token>"
+          recipient: "prajapatiabhishek1996@gmail.com"
+          subject: "RazorPy Email Service Test"
+          attachments:
+                 - "razor.yml"
+                 - "output.html"
+          smtp:
+              host: "smtp.gmail.com"
+              port: 465    
+          body:
+              string: "<html><body><img src='cid:testimage' /><br>{{mail_body}}</body></html>"    
+                 
+          vars:
+             mail_body: "<b>Hello Abhishek Here,</b><br><br> This is the auto-generated mail. Please do not reply unless you wanna get spammed! <br><br> <b>Thanks,</b><br>Abhishek Prajapati."    
+                 
+                
+    
+    - gating:
+        filter: ".*.xml"  
+        report_dir: "D:\\Downloads"  
+        process_pattern: "{%raw%} {{failure}}/{{total}}*100 {% endraw %}"
+        process_type: 'xml'
+        dictionary:
+            failure : '//testng-results/@failed'
+            total: '//testng-results/@total'
+        threshold: 75
+        
+        
+    - gating:
+        filter: ".*.json"  
+        report_dir: "E:\\Abhishek\\Eclipse Projects\\RazorPy\\others"  
+        process_pattern: "{%raw%} {{failure}}/{{total}}*100 {% endraw %}"
+        process_type: 'json'
+        dictionary:
+            failure : '$.test-result[*].failed'
+            total: '$.test-result[*].total'
+        threshold: 27
+        
+    - python:
+         type: "exec"
+         string: "print(message)"
+         vars:
+             message: "Hello, Abhishek Prajapati"    
+             
+    
+          

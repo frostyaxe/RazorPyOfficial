@@ -1,0 +1,52 @@
+2021-07-10 13:23:46,017 support.razor_logger - INFO:Logging is successfully started!
+2021-07-10 13:23:46,241 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-10 13:23:46,241 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-10 13:23:46,242 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-10 13:23:46,242 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-10 13:23:46,242 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-10 13:23:46,246 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') apitest_service False
+2021-07-10 13:23:46,587 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') cowsay_service False
+2021-07-10 13:23:46,597 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') docker_service False
+2021-07-10 13:23:46,972 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') email_service False
+2021-07-10 13:23:47,013 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') gating_service False
+2021-07-10 13:23:47,227 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') html_service False
+2021-07-10 13:23:47,658 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') python_service False
+2021-07-10 13:23:47,670 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') remoteExec_service False
+2021-07-10 13:23:47,671 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') template_service False
+2021-07-10 13:23:47,672 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') url_service False
+2021-07-10 13:23:47,689 support.razor_logger - WARNING:[ apitest ] Service object does not have attribute capture.
+2021-07-10 13:23:47,690 urllib3.connectionpool - DEBUG:Starting new HTTPS connection (1): reqres.in:443
+2021-07-10 13:23:48,055 urllib3.connectionpool - DEBUG:https://reqres.in:443 "GET /api/users?page=2 HTTP/1.1" 200 1030
+2021-07-10 13:23:48,055 support.razor_logger - INFO:b'{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}'
+2021-07-10 13:23:48,055 support.razor_logger - INFO:Actual status code: 200 is present in the expected status code list: [200]
+2021-07-10 13:23:48,089 support.razor_logger - INFO:Actual value: 2 is equal to the expected value: 2.
+2021-07-10 13:23:48,089 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') apitest_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') cowsay_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') docker_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') email_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') gating_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') html_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') python_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') remoteExec_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') template_service False
+2021-07-10 13:23:48,090 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') url_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') apitest_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') cowsay_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') docker_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') email_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') gating_service False
+2021-07-10 13:23:48,092 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') html_service False
+2021-07-10 13:23:48,093 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') python_service False
+2021-07-10 13:23:48,093 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') remoteExec_service False
+2021-07-10 13:23:48,093 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') template_service False
+2021-07-10 13:23:48,093 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') url_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') apitest_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') cowsay_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') docker_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') email_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') gating_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') html_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') python_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') remoteExec_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') template_service False
+2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') url_service False

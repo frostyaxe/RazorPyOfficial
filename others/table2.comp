@@ -1,0 +1,19 @@
+<table {{table.attribs}}>
+	<thead {{thead.attribs}}>
+		<tr>
+			{% for heading in table_headings %}
+				<th> {{heading}} </th>
+			{% endfor %}
+		</tr>
+	</thead>
+	<tbody>
+		{% for table_row in table_row_data %}
+			<tr>
+				{% for table_cell in table_row %}
+					<td>{{table_cell}}</td>
+				{% endfor %}
+			</tr>
+		{% endfor %}
+	</tbody>
+</table>
+	
