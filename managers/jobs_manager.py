@@ -6,7 +6,7 @@ Created on 01-Feb-2021
 
 from json import loads, dumps
 import sys
-from time import time
+from time import time, sleep
 from jinja2 import Template
 from os import path
 from managers.service_object_manager import ObjectManager
@@ -16,7 +16,7 @@ from razorpy_abstract.RazorPy import RazorPy
 from support.razor_display import RazorPyDisplay
 from support.razor_logger import logger
 from utils.yaml_utils import YamlUtils
-
+from managers import exec_details_manager
 
 class JobManager(object):
     
@@ -26,10 +26,12 @@ class JobManager(object):
         self.__user_defined_vars = AppsVars()
         self.__default_capture = "console"
         self.__destination = None
-        self.__execution_details = []
+   
+        
         
     def execute(self):
         try:
+            
             jobs = self.__jobs_json_obj['jobs']
             task_counter = 0
             for job in jobs:
@@ -69,7 +71,7 @@ class JobManager(object):
                                         print(msg)
                                         exec_data["output"] = msg
                                         exec_data["time"] = 0
-                                        self.__execution_details.append(exec_data)   
+                                        exec_details_manager.execution_details.append(exec_data)   
                                         del exec_data
                                         continue
                         finally:
@@ -155,15 +157,18 @@ class JobManager(object):
                         logger.critical(err_msg)
                         sys.exit(err_msg)
                         
-                    self.__execution_details.append(exec_data)   
+                    exec_details_manager.execution_details.append(exec_data)   
                     del exec_data
                         
         except Exception as err_obj:
             raise RazorException(RazorException.SOMETHINGWENTWRONG + " [ Error ] " + str(err_obj)) 
         finally:
             del self.__user_defined_vars.user_vars 
+            exec_details_manager.razor_status = "Completed"
             self.__generate_report__()        
-                    
+            print("Application will exit after 10 seconds...")
+            sleep(30)        
+    
     
     
     def __generate_report__(self):
@@ -176,13 +181,17 @@ class JobManager(object):
         
         template = env.get_template('reporter.tpl')
         
-        output = template.render(execution_details=self.__execution_details)
+        output = template.render(execution_details=exec_details_manager.execution_details)
         
         from datetime import datetime
         report_name = "razorpy-report-{0}.html".format(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
         
-        with open(path.join(AppsVars.PROJECT_ROOT_DIR,report_name), "w") as report_file_obj:
+        report_file_path = path.join(AppsVars.CURRENT_DIR,report_name)
+        with open(report_file_path, "w") as report_file_obj:
             report_file_obj.write(output)
+            
+        import webbrowser
+        webbrowser.open('file:///{0}'.format(report_file_path))
                     
     def __load_vars(self, tasks):
         

@@ -7,6 +7,7 @@ from pyexception.RazorException import RazorException
 from managers.jobs_manager import JobManager
 from support.razor_display import RazorPyDisplay
 import sys
+from configuration import appconf
 
 class Application(object):
     '''
@@ -22,7 +23,7 @@ class Application(object):
     def __init__(self):
         from managers.arguments_manager import ArgumentsManager
         self.__args_manager = ArgumentsManager()
-        sys.tracebacklimit=0
+        sys.tracebacklimit=appconf.traceback
     
     
     def execute(self):

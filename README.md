@@ -1,5 +1,5 @@
 # RazorPy
-RazorPy deals with the activities related to the DevOps process. User needs to create a yaml file based on that this application performs the required actions.
+RazorPy deals with the activities related to the DevOps process. User needs to create a yaml file based on that this application perform the required actions.
 
 Currently this application supports below services.
 - apitest
@@ -315,7 +315,7 @@ YAML Example:
 ## Reporting
 Once the execution is completed, this framework generates the html report as shown in the below image.
 
-![Report](https://github.com/frostyaxe/RazorPyOfficial/blob/master/others/report.PNG?raw=true)
+![Report](https://github.com/frostyaxe/RazorPy/blob/master/others/report.PNG?raw=true)
 
 ## Prerequisite
 REQUIRED Python 3.9
