@@ -50,3 +50,115 @@
 2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') remoteExec_service False
 2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') template_service False
 2021-07-10 13:23:48,094 support.razor_logger - INFO:FileFinder('E:\\Abhishek\\Eclipse Projects\\RazorPy\\services') url_service False
+2021-07-18 11:15:57,029 support.razor_logger - INFO:Logging is successfully started!
+2021-07-18 11:15:57,192 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-18 11:15:57,216 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-18 11:15:57,216 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-18 11:15:57,216 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-18 11:15:57,216 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-18 11:15:57,216 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-18 11:16:28,593 support.razor_logger - INFO:Logging is successfully started!
+2021-07-18 11:16:28,762 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-18 11:16:28,780 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-18 11:16:28,780 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-18 11:16:28,780 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-18 11:16:28,780 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-18 11:16:28,780 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-18 11:18:43,329 support.razor_logger - INFO:Logging is successfully started!
+2021-07-18 11:18:43,488 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-18 11:18:43,506 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-18 11:18:43,506 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-18 11:18:43,506 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-18 11:18:43,506 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-18 11:18:43,506 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-18 11:19:35,029 support.razor_logger - INFO:Logging is successfully started!
+2021-07-18 11:19:35,174 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-18 11:19:35,190 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-18 11:19:35,190 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-18 11:19:35,190 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-18 11:19:35,190 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-18 11:19:35,190 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-18 11:21:17,050 support.razor_logger - INFO:Logging is successfully started!
+2021-07-18 11:21:17,213 werkzeug - INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-07-18 11:21:17,230 support.razor_logger - INFO:Loading all the required arguments...
+2021-07-18 11:21:17,230 support.razor_logger - INFO:Arguments added successfully in the parser...
+2021-07-18 11:21:17,230 support.razor_logger - INFO:Parsing command line arguments....
+2021-07-18 11:21:17,230 support.razor_logger - INFO:Arguments parsed successfully!
+2021-07-18 11:21:17,230 support.razor_logger - INFO:Loading Razor YAML file content...
+2021-07-18 11:21:17,234 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') apitest_service False
+2021-07-18 11:21:17,276 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') cowsay_service False
+2021-07-18 11:21:17,278 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') docker_service False
+2021-07-18 11:21:17,493 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') email_service False
+2021-07-18 11:21:17,503 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') gating_service False
+2021-07-18 11:21:17,540 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') html_service False
+2021-07-18 11:21:17,575 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') python_service False
+2021-07-18 11:21:17,577 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') remoteExec_service False
+2021-07-18 11:21:17,578 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') ssh_service False
+2021-07-18 11:21:17,579 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') template_service False
+2021-07-18 11:21:17,581 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') url_service False
+2021-07-18 11:21:17,584 support.razor_logger - WARNING:[ apitest ] Service object does not have attribute capture.
+2021-07-18 11:21:17,585 urllib3.connectionpool - DEBUG:Starting new HTTPS connection (1): reqres.in:443
+2021-07-18 11:21:17,644 urllib3.connectionpool - DEBUG:https://reqres.in:443 "GET /api/users?page=2 HTTP/1.1" 200 1030
+2021-07-18 11:21:17,644 support.razor_logger - INFO:b'{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}'
+2021-07-18 11:21:17,644 support.razor_logger - INFO:Actual status code: 200 is present in the expected status code list: [200]
+2021-07-18 11:21:17,652 support.razor_logger - INFO:Actual value: 2 is equal to the expected value: 2.
+2021-07-18 11:21:17,652 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') apitest_service False
+2021-07-18 11:21:17,652 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') cowsay_service False
+2021-07-18 11:21:17,652 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') docker_service False
+2021-07-18 11:21:17,652 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') email_service False
+2021-07-18 11:21:17,652 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') gating_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') html_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') python_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') remoteExec_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') ssh_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') template_service False
+2021-07-18 11:21:17,653 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') url_service False
+2021-07-18 11:21:17,654 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') apitest_service False
+2021-07-18 11:21:17,654 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') cowsay_service False
+2021-07-18 11:21:17,654 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') docker_service False
+2021-07-18 11:21:17,654 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') email_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') gating_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') html_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') python_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') remoteExec_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') ssh_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') template_service False
+2021-07-18 11:21:17,655 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') url_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') apitest_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') cowsay_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') docker_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') email_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') gating_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') html_service False
+2021-07-18 11:21:17,656 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') python_service False
+2021-07-18 11:21:17,657 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') remoteExec_service False
+2021-07-18 11:21:17,657 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') ssh_service False
+2021-07-18 11:21:17,657 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') template_service False
+2021-07-18 11:21:17,657 support.razor_logger - INFO:FileFinder('C:\\Users\\RYZEN\\git\\RazorPyOfficial\\services') url_service False
+2021-07-18 11:21:18,529 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:18] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:20,815 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:20] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:22,878 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:22] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:24,943 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:24] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:27,011 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:27] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:29,079 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:29] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:31,167 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:31] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:33,232 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:33] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:35,292 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:35] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:36,058 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:36] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:37,314 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:37] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:38,257 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:38] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:39,193 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:39] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:39,882 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:39] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:40,425 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:40] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:41,034 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:41] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:41,682 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:41] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:42,266 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:42] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:42,825 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:42] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:43,393 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:43] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:44,226 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:44] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:44,906 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:44] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:45,490 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:45] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:46,194 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:46] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:46,810 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:46] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:47,337 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:47] "GET / HTTP/1.1" 200 -
+2021-07-18 11:21:47,802 werkzeug - INFO:127.0.0.1 - - [18/Jul/2021 11:21:47] "GET / HTTP/1.1" 200 -
