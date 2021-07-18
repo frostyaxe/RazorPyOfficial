@@ -31,7 +31,7 @@ class SSH(RazorPy):
         self.__remotepath = None
     
     ####################  Getters ####################
-     
+      
     @property
     def host(self):
         return self.__host
